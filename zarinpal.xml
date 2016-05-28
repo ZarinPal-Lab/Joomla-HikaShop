@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="3.5" method="upgrade" group="hikashoppayment">
-	<name>Hikashop Zarinpal Payment</name>
-	<version>3.0</version>
-	<creationDate>1395/3/8</creationDate>
-	<author>Masoud Amini</author>
-	<authorEmail>me@masoudamini.ir</authorEmail>
-	<authorUrl>http://masoudamini.ir</authorUrl>
-	<copyright>Copyright (c) 2016 Zarinpal.com. All rights reserved.</copyright>
+	<name>Hikashop Zarinpal Payment Gateway</name>
+	<version>1.0</version>
+	<creationDate>2016/05/27</creationDate>
+	<author>ZarinPal development team</author>
+	<authorEmail>lab@zarinpal.com</authorEmail>
+	<authorUrl>https://www.zarinpal.com/lab</authorUrl>
+	<copyright>Copyright (c) 2016 ZarinPal.com Iran Ltd. All rights reserved.</copyright>
 	<license>GNU/GPL license: http://www.gnu.org/copyleft/gpl.html</license>
-	<description>با این پلاگین می توانید در hikasop پرداخت هایتان را انجام دهید.</description>
+	<description></description>	
 	<files>
 		<filename>index.html</filename>
 		<filename plugin="zarinpal">zarinpal.php</filename>

@@ -9,19 +9,10 @@ defined('_JEXEC') or die('Restricted access');
 	<span id="hikashop_zarinpal_end_spinner" class="hikashop_zarinpal_end_spinner hikashop_checkout_end_spinner">
 	</span>
 	<br/>
-	<form id="hikashop_zarinpal_form" name="hikashop_zarinpal_form" action="<?php echo $this->payment_params->url;?>" method="post">
-		<div id="hikashop_zarinpal_end_image" class="hikashop_zarinpal_end_image">
-			<input id="hikashop_zarinpal_button" type="submit" class="btn btn-primary" value="<?php echo JText::_('PAY_NOW');?>" name="" alt="<?php echo JText::_('PAY_NOW');?>" />
-		</div>
-		<?php
-			//foreach($this->vars as $name => $value ) {
-				//echo '<input type="hidden" name="'.$name.'" value="'.$value.'" />';
-			//}
-			JRequest::setVar('noform',1); ?>
-	</form>
+	در صورت عدم انتقال <a href="<?php echo $this->payment_params->url;?>">اينجا</a> کليک کنيد.
 	<script type="text/javascript">
 		<!--
-		document.getElementById('hikashop_zarinpal_form').submit();
+		window.location="<?php echo $this->payment_params->url;?>";
 		//-->
 	</script>
 </div>
