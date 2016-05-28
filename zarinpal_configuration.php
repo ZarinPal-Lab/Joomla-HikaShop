@@ -14,16 +14,6 @@ defined('_JEXEC') or die('Restricted access');
 </tr>
 <tr>
 	<td class="key">
-		<label for="data[payment][payment_params][descriptionzn]"><?php
-			echo JText::_( 'توضیحات تراکنش' );
-		?></label>
-	</td>
-	<td>
-		<input type="text" name="data[payment][payment_params][descriptionzn]" value="<?php echo $this->escape(@$this->element->payment_params->descriptionzn); ?>" />
-	</td>
-</tr>
-<tr>
-	<td class="key">
 		<label for="data[payment][payment_params][invalid_status]"><?php
 			echo JText::_('INVALID_STATUS');
 		?></label>
